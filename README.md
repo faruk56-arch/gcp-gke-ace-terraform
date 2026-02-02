@@ -16,6 +16,12 @@ The infrastructure is fully automated, cost-optimized, and designed with **least
 - **IAM service accounts** + Workload Identity
 - **Cloud Monitoring & Logging**
 
+### Diagram
+
+<p align="center">
+    <img src="docs/architecture.png" alt="GKE private cluster architecture" width="900" />
+</p>
+
 ---
 
 ## 🧱 Technologies Used
