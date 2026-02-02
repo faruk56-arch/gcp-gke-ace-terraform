@@ -1,0 +1,26 @@
+# Terraform local state/cache
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files 
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Variable files that commonly contain secrets
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+
+
+
+
+
+# Local Terraform config / plan files
+.terraformrc
+terraform.rc
+*.tfplan
+
+# Keep provider registry/cache out of git
+.terraform/providers/registry.terraform.io/
